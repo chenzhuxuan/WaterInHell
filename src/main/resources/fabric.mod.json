@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "nether-water",
+  "version": "${version}",
+  "name": "Nether Water",
+  "description": "Allows water to be placed and exist in the Nether.",
+  "authors": [
+    "chenzhuxuan"
+  ],
+  "contact": {
+    "homepage": "https://github.com/chenzhuxuan/WaterInHell",
+    "sources": "https://github.com/chenzhuxuan/WaterInHell"
+  },
+  "license": "MIT",
+  "icon": "assets/nether-water/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.netherwater.NetherWaterMod"
+    ]
+  },
+  "mixins": [
+    "nether-water.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
